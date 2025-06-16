@@ -2,3 +2,4 @@ git checkout -b feature-1
 echo "Edit from feature-1 branch" >> code.txt
 git add code.txt
 git commit -m "Updated code.txt in feature-1"
+git merge feature-1
