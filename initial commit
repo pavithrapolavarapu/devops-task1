@@ -1,0 +1,3 @@
+echo "Initial version" > code.txt
+git add code.txt
+git commit -m "Initial commit on main"
