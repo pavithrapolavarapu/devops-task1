@@ -1,3 +1,4 @@
-echo "Initial version" > code.txt
+git checkout main
+echo "Conflicting change from main branch" >> code.txt
 git add code.txt
-git commit -m "Initial commit on main"
+git commit -m "Conflicting change in main"
